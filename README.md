@@ -27,7 +27,7 @@ The model is trained batchwise, using mini-batch size of 128, and Adam optimizer
 
 **Train:** ```bash task2.sh train p f /path/to/train.csv /path/to/adj_mx.csv /path/to/graph_splits.npz```
 
-**Test:** ```bash aiz218322_task2.sh test p f /path/to/test.npz /path/to/output_file.npz /path/to/task2.model```
+**Test:** ```bash task2.sh test p f /path/to/test.npz /path/to/output_file.npz /path/to/task2.model```
 
 ### References:
 
