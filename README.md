@@ -16,6 +16,15 @@ At the end, another 'Linear' layer is used where number of input features = 16, 
 
 The model is trained batchwise, using mini-batch size of 128, and Adam optimizer.
 
+## Run Code
+### Task-1
+**Train:** bash task1.sh train /path/to/train.csv /path/to/adj_mx.csv /path/to/graph_splits.npz
+**Test:** bash task1.sh test /path/to/test.csv /path/to/output_file.csv /path/to/task1.model
+
+### Task-2
+
+**Train:** bash task2.sh train p f /path/to/train.csv /path/to/adj_mx.csv /path/to/graph_splits.npz
+**Test:** bash aiz218322_task2.sh test p f /path/to/test.npz /path/to/output_file.npz /path/to/task2.model
 
 ### References:
 
